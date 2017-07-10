@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="94px" height="98px" viewBox="0 0 94 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>docx</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.084 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="-1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.084 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Plataforma" sketch:type="MSArtboardGroup" transform="translate(-167.000000, -2163.000000)">
+            <g id="parser" sketch:type="MSLayerGroup" transform="translate(-3.000000, 1728.000000)">
+                <g id="content" transform="translate(170.000000, 319.000000)" sketch:type="MSShapeGroup">
+                    <g id="docx" transform="translate(0.000000, 12.000000)">
+                        <g transform="translate(0.000000, 104.000000)">
+                            <path d="M63.3076923,0 L14.8461538,0 C12.352,0 10,2.35925926 10,4.74193548 L10,93.2580645 C10,95.6407407 12.352,98 14.8461538,98 L89.1538462,98 C91.648,98 94,95.6407407 94,93.2580645 L94,30.0322581 L63.3076923,30.0322581 L63.3076923,0 Z" id="Fill-9" fill="#355D9F"></path>
+                            <path d="M0,18 L45,18 L45,63 L0,63 L0,18 Z" id="Fill-10" fill="#4977C2" filter="url(#filter-1)"></path>
+                            <path d="M82.6901325,71.72 L82.6901325,70.28 C82.6901325,69.56 80.4832186,69 78.9751607,69 L24.7034695,69 C23.1770208,69 22,69.56 22,70.28 L22,71.72 C22,72.44 23.1770208,73 24.7034695,73 L82.156795,73 C83.6648528,73 82.6901325,72.44 82.6901325,71.72 L82.6901325,71.72 Z M82.6901325,81.72 L82.6901325,80.28 C82.6901325,79.56 80.4832186,79 78.9751607,79 L24.7034695,79 C23.1770208,79 22,79.56 22,80.28 L22,81.72 C22,82.44 23.1770208,83 24.7034695,83 L82.156795,83 C83.6648528,83 82.6901325,82.44 82.6901325,81.72 L82.6901325,81.72 Z" id="Fill-11" fill="#254272"></path>
+                            <path d="M81.8322711,63 L81.8322711,60.2631579 C81.8322711,59.5526316 80.3183386,59 79.4975318,59 L50.459212,59 C49.6384053,59 49,59.5526316 49,60.2631579 L49,61.6842105 C49,62.3947368 49.6384053,62.9473684 50.459212,62.9473684 L81.5404287,62.9473684 C82.3612354,62.9473684 81.8322711,62.3947368 81.8322711,61.6842105" id="Fill-12" fill="#254272"></path>
+                            <path d="M81.8322711,51.72 L81.8322711,50.28 C81.8322711,49.56 80.3183386,49 79.4975318,49 L50.459212,49 C49.6384053,49 49,49.56 49,50.28 L49,51.72 C49,52.44 49.6384053,53 50.459212,53 L81.5404287,53 C82.3612354,53 81.8322711,52.44 81.8322711,51.72" id="Fill-13" fill="#254272"></path>
+                            <path d="M10,63 L0,63 L10,73 L10,63" id="Fill-14" fill="#254272"></path>
+                            <path d="M63,0 L94,31 L63,31 L63,0 Z" id="Rectangle-22-Copy" fill="#4977C2" filter="url(#filter-2)"></path>
+                            <path d="M27.0665939,51 L37,33 L32.1954148,33 L25.6222707,46.0074963 L25.0327511,33 L21.760917,33 L14.8930131,46.0074963 L14.5982533,33 L10,33 L11.2969432,51 L15.7478166,51 L22.1441048,38.6401799 L22.6157205,51 L27.0665939,51 Z" id="W" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

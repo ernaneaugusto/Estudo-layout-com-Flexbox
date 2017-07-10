@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="37px" height="33px" viewBox="0 0 37 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="desafio" sketch:type="MSArtboardGroup" transform="translate(-1033.000000, -1369.000000)" fill="#61A6C1">
+            <g id="cadernos" sketch:type="MSLayerGroup" transform="translate(-1.000000, 785.000000)">
+                <g id="caderno-alunos" transform="translate(81.000000, 235.000000)" sketch:type="MSShapeGroup">
+                    <g id="tooltip-copy-2" transform="translate(937.000000, 323.000000)">
+                        <g id="balao">
+                            <path d="M30,32 L40,32 L40,59 L30,59 L30,32 Z M43,37 L53,37 L53,59 L43,59 L43,37 Z M16,26 L26,26 L26,59 L16,59 L16,26 Z" id="Fill-3"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

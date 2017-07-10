@@ -1,0 +1,15 @@
+{
+  "name": "desafio-front-qmagico",
+  "description": "Desafio elaborado para o recrutamento de novos profissionais front-end",
+  "main": "index.js",
+  "authors": [
+    "QMágico"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/superoak/desafio-front-qmagico",
+  "moduleType": [],
+  "private": true,
+  "devDependencies": {
+    "angular": "^1.5.6"
+  }
+}
