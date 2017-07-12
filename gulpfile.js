@@ -18,12 +18,6 @@ gulp.task('uglify-js', function () {
     .pipe(gulp.dest('app/js'));
 })
 
-gulp.task('clean-css', function () {
-    gulp.src(['app/css/**/*', '!app/css/**/Thumbs.db'])
-    .pipe(clean())
-    .pipe(gulp.dest('app/css'));
-});
-
 gulp.task('cssmin', function () {
     gulp.src(['app/css/*.css','!app/css/**/Thumbs.db'])
     .pipe(cssmin({
