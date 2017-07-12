@@ -1,18 +1,227 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="qmagico">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<meta charset="utf-8">
-	<title>Desafio Front-end QMágico | Ernane Toledo</title>
+	<meta name="description" content="A nova geração de tecnologia educacional. Esqueça as soluções que você conhece. Junte-se às escolas e professores que já estão na nova geração da educação.">
+	<meta name="Keywords" content="QMágico, Tecnologia educacional, Cadernos digitais, Conteúdos interativos">
+		<!--[if lt IE 9]>
+		<script src="lib\jquery\html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+		<title>Desafio Front-end QMágico</title>
+		
+		<link rel="stylesheet" type="text/css" href="app/css/app.css">
+		<link rel="stylesheet" href="app/font-awesome/font-awesome.css">
+		
+	</head>
+	<body ng-controller="qmagicoContoller">
 
-	<!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="/dist/css/app.css">
+		<header class="container-flex">
+			<div class="item-flex" id="logo">
+				<a href="#"><img src="app/images/qmagico.png" alt="Logo Qmágico" title="Logo QMágico"></a>
+			</div>
 
-	<!-- Javascripts -->
-	<!-- <script src="/dist/js/vendors.min.js"></script> -->
-	<!-- <script src="/dist/js/dist.min.js"></script> -->
-</head>
-<body>
+			<nav class="item-flex" id="navbar">
+				<ul class="hidden">
+					<li><a href="#plataforma">Plataforma</a></li>
+					<li><a href="#preco">Preço</a></li>
+					<li><a href="#pedagogico">Pedagógico</a></li>
+					<li><a href="#suporte">Suporte</a></li>
+					<li class="itens-login"><a href="#">Entrar</a></li>
+					<li class="itens-login btn-plataforma"><a href="#" class="btn btn-azul">Criar um plataforma</a></li>
+				</ul>
+				<div id="login">
+					<a href="#">Entrar</a>
+					<a href="#" class="btn btn-azul" >Criar um plataforma</a>
+				</div>
+			</nav>
+			<button class="btn-abrir-menu">&#9776;</button>
+		</header>
 
-</body>
-</html>
+		<section id="principal">
+			<div class="container-flex-jc">
+				<div>
+					<h1 class="titulo-principal">A nova geração de <br/>tecnologia educacional.</h1>
+					<p class="descricao-principal">Junte-se as escolas e professores que já <br/>estão na nova geração da educação.</p>
+					<a href="#" class="btn btn-branco btn-video"><i class="fa fa-play"></i> Assistir o vídeo</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="clientes">
+			<div class="container-flex jc-space-between">
+				<div class="item-jc">
+					<img src="app/images/clientes/sesi.png" alt="Escola Sesi" title="Escola Sesi">
+				</div>
+				<div class="item-jc">
+					<img src="app/images/clientes/mackenzie.png" alt="Escola Mackenzie" title="Escola Mackenzie">
+				</div>
+				<div class="item-jc">
+					<img src="app/images/clientes/riobranco.png" alt="Escola Rio Branco" title="Escola Rio Branco">
+				</div>
+				<div class="item-jc">
+					<img src="app/images/clientes/bandeirantes.png" alt="Escola Bandeirantes" title="Escola Bandeirantes">
+				</div>
+				<div class="item-jc">
+					<img src="app/images/clientes/anglo.png" alt="Escola Anglo" title="Escola Anglo">
+				</div>
+			</div>
+		</section>
+
+		<section id="vantagens">
+			<div class="container-flex text-center fd-column">
+				<div class="item-flex">
+					<h1 class="titulo">Cadernos Digitais Inteligentes</h1>
+					<p class="descricao">Suas atividades, organizadas. Seus alunos, engajados.<br/> Resultados em tempo real, em qualquer lugar.</p>
+
+					<a class="btn-radio btn-esquerda" ng-click="tab=1" ng-init="tab=1" ng-class="{'btn-ativo' : tab==1}">Aluno</a>
+
+					<a class="btn-radio btn-direita" ng-click="tab=2" ng-class="{'btn-ativo' : tab==2}">Professor</a>
+
+					<div class="tabs-container">
+						<div class="tab-content" ng-show="tab == 1">
+							<img src="app/images/mocks/browser-aluno.png" alt="" class="imagem">
+						</div>
+
+						<div class="tab-content" ng-show="tab == 2">
+							<img src="app/images/mocks/browser-professor.png" alt="" class="imagem">							
+						</div>
+					</div>
+					
+					<!-- <img src="app/images/mocks/browser-aluno.png" alt="" class="imagem"> -->
+
+					<div class="item-flex" id="interativo">
+						<h1 class="titulo">Conteúdos interativos</h1>
+						<p class="descricao">Crie materiais didáticos para fazer parte do seu<br/>sistema de ensino digital.</p>
+						<div class="conteudos-interativos flex jc-space-around">
+							<div class="flex ai-center item-flex">
+								<img src="app/images/vetores/materiais/article.svg" alt="">
+							</div>
+							<div class="flex ai-center item-flex">
+								<span class="mais">+</span><img src="app/images/vetores/materiais/exerciselist.svg" alt="">
+							</div>
+							<div class="flex ai-center item-flex">
+								<span class="mais">+</span><img src="app/images/vetores/materiais/presentation.svg" alt="">
+							</div>
+							<div class="flex ai-center item-flex">
+								<span class="mais">+</span><img src="app/images/vetores/materiais/video.svg" alt="">
+							</div>				
+						</div>
+					</div>				
+				</div>
+			</section>
+
+			<section class="padding-top borda-topo">
+				<div class="container-flex ai-center">
+
+					<div class="item-flex texto-flex basis460">
+						<h1 class="titulo">Acompanhamento em tempo real</h1>
+						<p class="descricao">Você pode analisar em tempo real o desempenho e progresso de seus alunos.</p>
+					</div>
+					<div class="item-flex img-flex basis460">
+						<img src="app/images/produto/desempenho.png" alt="">
+					</div>
+				</div>
+			</section>
+
+			<section class="padding-top borda-topo">
+				<div class="container-flex ai-center">
+					<div class="item-flex img-flex mobile basis460 mobile-order-1">
+						<img src="app/images/mocks/mobile-tela.png" alt="">
+					</div>
+					<div class="item-flex texto-flex basis460 mobile-order-0">
+						<h1 class="titulo">Em qualquer lugar</h1>
+						<p class="descricao">Você pode acessar o QMágico de qualquer dispositvo em qualquer lugar que esteja.</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="padding-top borda-topo">
+				<div class="container-flex text-center">
+
+					<div class="item-flex">
+						<h1 class="titulo">Mantenha todos atualizados</h1>
+						<p class="descricao">Deixe todos acompanhar o progresso do aprendizado.</p>
+						<div class="flex jc-space-around padding-top usuarios text-center">
+							<div>
+								<img src="app/images/vetores/icones/people.svg" alt="">
+								<p class="descricao-svg">Pais</p>
+							</div>
+							<div>
+								<img src="app/images/vetores/icones/user.svg" alt="">
+								<p class="descricao-svg">Professores</p>
+							</div>
+							<div>
+								<img src="app/images/vetores/icones/paste.svg" alt="">
+								<p class="descricao-svg">Coordenadores</p>
+							</div>
+							<div>
+								<img src="app/images/vetores/icones/cog.svg" alt="">
+								<p class="descricao-svg">Diretores</p>
+							</div>				
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<section id="plataforma" class="padding-top">
+				<div class="container-flex-jc">
+					<div>
+						<h1 class="titulo-principal">Experimente QMágico grátis por 30 dias.</h1>
+						<p class="descricao-principal">Nao é obrigatorio cartao de crédito, cancele a <br/>qualquer momento.</p>
+
+						<form id="form-plataforma" name="formPlataforma" ng-submit="respondePlataforma(plataforma)">
+							<input type="text" placeholder="Nome da plataforma" required name="nome" ng-model="plataforma.nome">
+							<input type="text" placeholder="Endereço da plataforma" required name="endereco" ng-model="plataforma.endereco"> <span class="descricao-plataforma end-site">.qmagico.com.br</span>
+							<button class="btn btn-branco btn-video" id="btn-form" type="submit"><i class="fa fa-arrow-right"></i></button>
+						</form>
+
+					</div>
+				</div>
+			</section>
+
+			<footer class="container-flex">
+				<div class="item-flex grow-1">
+					<a href="#"><img src="app/images/qmagico.png" alt="Logo Qmágico" title="Logo QMágico"></a>				
+				</div>
+				<div class="item-flex grow-4">
+					<p>QMágico é uma ferramenta que ajuda a conectar quem ensina a quem aprende, quantificando a aprendizagem e oferendo soluções para melhora-la.</p>
+				</div>
+				<div class="item-flex grow-2 menu-footer">
+					<p>Usuando QMágico</p>
+					<ul>
+						<li><a href="#">Plataforma</a></li>
+						<li><a href="#">Preço</a></li>
+						<li><a href="#">Pedagógico</a></li>
+						<li><a href="#">Suporte</a></li>
+					</ul>
+				</div>	
+				<div class="item-flex grow-2 menu-footer">
+					<p>QMágico</p>
+					<ul>
+						<li><a href="#">Vagas</a></li>
+						<li><a href="#">Cliente</a></li>
+						<li><a href="#">Desenvolvedores</a></li>
+						<li><a href="#">Blog</a></li>
+					</ul>
+				</div>
+				<div class="item-flex grow-2 menu-footer">
+					<p>Legal</p>
+					<ul>
+						<li><a href="#">Privacidade</a></li>
+						<li><a href="#">Segurança</a></li>
+						<li><a href="#">Termos de serviço</a></li>
+						<li><a href="#">Políticas</a></li>
+					</ul>
+				</div>			
+
+			</footer>
+
+			<script src="app/js/jquery-3.2.1.min.js"></script>	
+			<script src="app/js/angular.min.js"></script>	
+			<script src="app/js/menu.js"></script>	
+			<script src="app/js/app.js"></script>	
+
+		</body>
+		</html>
