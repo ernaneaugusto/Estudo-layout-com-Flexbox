@@ -4,20 +4,28 @@
   "description": "Desafio elaborado para o recrutamento de novos profissionais front-end",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/superoak/desafio-front-qmagico.git"
+    "url": "git+https://github.com/superoak/desafio-front-qmagico.git"
   },
-  "author": "",
+  "author": "ernane toledo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/superoak/desafio-front-qmagico/issues"
   },
   "homepage": "https://github.com/superoak/desafio-front-qmagico",
   "dependencies": {
-    "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.6.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-uglify": "^3.0.0"
   }
 }
